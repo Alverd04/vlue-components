@@ -1,0 +1,52 @@
+.mediaGallery {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: center;
+    width: 100%;
+    outline: none;
+}
+
+.carrousel {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    position: relative;
+}
+
+.carrouselImage {
+   width: 100%;
+}
+
+.arrowLeft{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    color: rgb(205, 205, 205);
+    left: 0;
+    cursor: pointer;
+    min-width: 60px;
+}
+
+.arrowLeft:hover{
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0));
+}
+
+.arrowRight{
+    cursor: pointer;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    color: rgb(205, 205, 205);
+    right: 0;
+    min-width: 60px;
+}
+
+.arrowRight:hover{
+    background: linear-gradient(to left, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0));
+}

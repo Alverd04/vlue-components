@@ -1,3 +1,3 @@
-import { VlueCarrousel } from './components'
+import { MediaGallery } from './components'
 
-export { VlueCarrousel }
+export { MediaGallery }
