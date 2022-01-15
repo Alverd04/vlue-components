@@ -67,10 +67,14 @@ const MediaGallery = ({
             size={48}
           />
         </div>
+        {hasLabelCount && (
+          <div className={styles.countContainer}>
+            <span className={styles.count}>{`${currentImagePosition + 1}/${
+              images.length
+            }`}</span>
+          </div>
+        )}
       </div>
-      {hasLabelCount && (
-        <span>{`${currentImagePosition + 1}/${images.length}`}</span>
-      )}
     </div>
   )
 }
