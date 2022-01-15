@@ -5,12 +5,13 @@ import 'vlue-components/dist/index.css'
 
 const App = () => {
   const images = [
-    'https://jooinn.com/images/amazing-sunset-3.jpg',
-    'https://wallpaperaccess.com/full/4085479.jpg',
-    'https://wallpaperaccess.com/full/269542.jpg'
+    'https://static.inmofactory.com/images/inmofactory/documents/1/94551/29944977/456544034.jpg?rule=web_1200x0_avif_50',
+    'https://static.inmofactory.com/images/inmofactory/documents/1/94551/29944977/456544035.jpg?rule=web_1200x0_avif_50',
+    'https://static.inmofactory.com/images/inmofactory/documents/1/94551/29944977/456544036.jpg?rule=web_1200x0_avif_50',
+    'https://static.inmofactory.com/images/inmofactory/documents/1/94551/29944977/456544037.jpg?rule=web_1200x0_avif_50'
   ]
 
-  const [position, setPosition] = useState(2)
+  const [position, setPosition] = useState(0)
 
   const handlePositionChange = (newPosition) => {
     setPosition(newPosition)
